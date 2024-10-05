@@ -1,0 +1,34 @@
+{
+  "name": "lux-gui",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@kobalte/core": "^0.13.6",
+    "@tauri-apps/api": ">=2.0.0-rc.0",
+    "@tauri-apps/plugin-shell": ">=2.0.0-rc.0",
+    "@unocss/reset": "^0.63.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "daisyui": "^4.12.11",
+    "lucide-solid": "^0.447.0",
+    "solid-js": "^1.7.8",
+    "unocss": "^0.63.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.0.0-rc.18",
+    "@types/node": "^22.7.4",
+    "@unscatty/unocss-preset-daisy": "^1.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}

@@ -1,0 +1,25 @@
+[package]
+name = "lux-gui"
+version = "0.1.0"
+description = "A Lux Gui to extract videos"
+authors = ["sternelee"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "lux_gui_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = [] }
+tauri-plugin-shell = "2.0.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1.11.0"
+reqwest = "0.12.8"
+url = "2.5.2"
+
